@@ -1,0 +1,39 @@
+
+.home{
+display:grid;
+grid-row-gap: 20px;
+grid-column-gap:20px;
+grid-template-columns: repeat(3, 1fr);
+background:#040461;
+   
+}
+.homebg{
+    background: linear-gradient(to top, rgba(246, 245, 252, 0.52), rgba(34, 19, 117, 0.73)),
+    url('../../Images/field.jpg');;
+    background-size:contain;
+    background-position:top;
+    background: cover; 
+    height: 300px;
+    
+}
+.homeheader{
+margin: auto;
+    text-align: center;
+    color:white;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .home {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
