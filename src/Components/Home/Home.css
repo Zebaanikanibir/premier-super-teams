@@ -22,6 +22,7 @@ margin: auto;
     color:white;
     font-weight: 900;
     line-height: 50px;
+    padding:50px;
 }
 
 @media only screen and (max-width: 600px) {

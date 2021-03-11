@@ -16,20 +16,14 @@ width:400px;
 .teamdetail{
     background:rgb(4, 4, 87);
 }
-.teamDetailsbg{
 
-    background:linear-gradient(to bottom, rgba(246, 245, 252, 0.52), rgba(34, 19, 117, 0.73)),
-    url('../../Images/field.jpg');
-    background-size:contain;
-    background-position:top;
-    background: cover;  
-    height: 300px;
-    width: 100%;
-}
-.badge1{
-margin-top: 50px;
-    width: 200px;
-}
+
+/* .badge1{
+position: absolute;
+width:100%;
+overflow: visible;
+
+} */
 
 .info{
 
@@ -38,7 +32,7 @@ margin-top: 50px;
     font-weight: 500;
 }
 .detailsinfo{
-    background:rgba(155, 7, 135, 0.473);
+    background:rgba(255, 255, 255, 0.315);;
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -51,3 +45,4 @@ margin-top: 50px;
 margin-left: 80px;
 
 }
+
